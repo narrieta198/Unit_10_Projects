@@ -43,10 +43,12 @@ nav#gameLinks a::after{
 	transition: opacity 0.5s, width 0.5s;
 }
 
+
 nav#gameLinks a:hover::after{
 	opacity: 1;
 	width: 100%;
 }
+
 
 div.sprite{
 	position: absolute;
