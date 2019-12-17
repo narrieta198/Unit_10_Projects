@@ -50,15 +50,10 @@ nav li a {
 
 header {
    border-bottom: 1px solid black;
-   clear: both;
    text-align: right;
 }
 
 /* Figure Box Styles */
-
-figure {
-   float: right;
-}
 
 figure {
    background-color: rgb(102, 102, 102);
@@ -77,8 +72,7 @@ figure figcaption {
 
 /* Section Styles */
 
-section#main {
-   float: left;
+section#main {   
    width: 60%;
    margin-top: 20px;
 }
@@ -90,7 +84,6 @@ section p {
 
 section#main p:first-of-type:first-letter {
    font-size: 4em;
-   float: left;
    margin: 15px 5px 5px 0px;
    font-family: "Times New Roman", serif;
 }
@@ -98,9 +91,7 @@ section#main p:first-of-type:first-letter {
 /* Poem Styles */
 
 section.poem {
-   width: 50%;
    clear: none;
-   float: left;
    padding-left: 10px;
 }
 
@@ -112,9 +103,14 @@ section.poem h2 {
    float: left;
 }
 
-
-section.poem:first-of-type {
-   border-right: 1px solid black;
+div.side{
+   margin-top: 3%;
+   float: right;
+   width: 50%;
 }
 
-
+div.paragraph{
+   margin-top: 3%;
+   float: left;
+   width: 50%;
+}
