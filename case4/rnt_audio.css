@@ -19,6 +19,7 @@ audio{
     box-shadow: grey 8px 8px 15px;
     margin: 20px auto;
     width: 80%;
+    border-radius: 100px;
 }
 
 audio::-webkit-media-controls-panel{
